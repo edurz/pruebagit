@@ -6,4 +6,8 @@ git add | agrega archivos al proyecto
 git status
 git commit | para subir un cambio, apretar letra i para dejar comentario
              y luego esc y :wq para guardar
+git commit -m "mensaje" | modo abreviado y rapido
 git log
+
+git checkout --<file> | revierte los cambios subidos
+git diff | muestra las diferencias entre un archivo subido y otro que aun no
