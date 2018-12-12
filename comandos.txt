@@ -4,5 +4,6 @@ cd | se mueve a carpeta seleccionada
 git init | inicia el proyecto
 git add | agrega archivos al proyecto
 git status
-git commit
+git commit | para subir un cambio, apretar letra i para dejar comentario
+             y luego esc y :wq para guardar
 git log
