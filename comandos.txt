@@ -1,0 +1,8 @@
+ls | lista archivos
+cd | se mueve a carpeta seleccionada
+
+git init | inicia el proyecto
+git add | agrega archivos al proyecto
+git status
+git commit
+git log
