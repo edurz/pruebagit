@@ -3,11 +3,12 @@ cd | se mueve a carpeta seleccionada
 
 git init | inicia el proyecto
 git add | agrega archivos al proyecto
+git add . | agrega todo
 git status
 git commit | para subir un cambio, apretar letra i para dejar comentario
              y luego esc y :wq para guardar
 git commit -m "mensaje" | modo abreviado y rapido
-git log
+git log | lista los commit hechos 
 
 git checkout --<file> | revierte los cambios subidos
 git diff | muestra las diferencias entre un archivo subido y otro que aun no
@@ -16,3 +17,8 @@ git diff | muestra las diferencias entre un archivo subido y otro que aun no
 git branch | muestra las ramas. la principa es la master
 git brach nombre | crea rama nueva
 git checkout nombrerama | accede a esa nueva rama
+
+
+git remote add origin <rutaproyecto> | agregar archivos a github
+git push -u origin master | sube los cambios a proyecto github
+git clone <ruta> | descarga el proyecto
