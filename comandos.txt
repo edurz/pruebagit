@@ -11,3 +11,8 @@ git log
 
 git checkout --<file> | revierte los cambios subidos
 git diff | muestra las diferencias entre un archivo subido y otro que aun no
+
+
+git branch | muestra las ramas. la principa es la master
+git brach nombre | crea rama nueva
+git checkout nombrerama | accede a esa nueva rama
