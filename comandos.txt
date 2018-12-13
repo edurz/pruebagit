@@ -22,3 +22,4 @@ git checkout nombrerama | accede a esa nueva rama
 git remote add origin <rutaproyecto> | agregar archivos a github
 git push -u origin master | sube los cambios a proyecto github
 git clone <ruta> | descarga el proyecto
+git merge <rama> | para absorber cambios de otra rama
