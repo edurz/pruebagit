@@ -9,8 +9,11 @@ git commit | para subir un cambio, apretar letra i para dejar comentario
              y luego esc y :wq para guardar
 git commit -m "mensaje" | modo abreviado y rapido
 
+<<<<<<< HEAD
 git log | lista los commit hechos
 
+=======
+>>>>>>> 171c756e304b7efbdc5745a3673578eadc6053e2
 git log | lista los commit hechos 
 
 
@@ -21,13 +24,19 @@ git diff | muestra las diferencias entre un archivo subido y otro que aun no
 git branch | muestra las ramas. la principa es la master
 git brach nombre | crea rama nueva
 
+<<<<<<< HEAD
 git checkout nombrerama | accede a esa nueva rama
 =======
+=======
+>>>>>>> 171c756e304b7efbdc5745a3673578eadc6053e2
 git checkout nombrerama | accede a esa nueva rama
 
 
 git remote add origin <rutaproyecto> | agregar archivos a github
 git push -u origin master | sube los cambios a proyecto github
 git clone <ruta> | descarga el proyecto
+<<<<<<< HEAD
 git merge <rama> | para absorber cambios de otra rama
+=======
+>>>>>>> 171c756e304b7efbdc5745a3673578eadc6053e2
 
