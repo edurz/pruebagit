@@ -20,7 +20,7 @@ git branch | muestra las ramas. la principa es la master
 git brach nombre | crea rama nueva
 
 git checkout nombrerama | accede a esa nueva rama
-
+git checkout -b nombrerama | crea rama y accede a esta
 
 git remote add origin <rutaproyecto> | agregar archivos a github
 git push -u origin master | sube los cambios a proyecto github
@@ -28,7 +28,7 @@ git clone <ruta> | descarga el proyecto
 git merge <rama>:  abosrve los cambios de la rama 
 git merge --abort : cancela un merge
 
-git fetch baja los cambio de la rama determinada y
+git fetch : baja los cambio de la rama determinada y
 la coloca en una rama "espejo" que simplemente es una 
 clase de rama "escondida" en la cual tu puedes mirar los cambios
 de dicha rama, para posterior hacer merge con tu rama local.
